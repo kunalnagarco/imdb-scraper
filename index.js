@@ -34,11 +34,8 @@ app.get('/list/:listID/:page', function(req, res) {
 app.get('/title/:titleID', function(req, res) {
 	scraper.getTitle(req.params.titleID)
 		.then(function(data) {
-			res.json({
-				baseUrl: baseUrl,
-				id: data.id,
-				name: data.name
-			});
+			var result = { baseUrl: baseUrl, ...data };
+			res.json(result);
 		});
 });
 

@@ -141,13 +141,89 @@ function getTitle(titleID) {
 		})
 		.then(function(body) {
 			var $ = cheerio.load(body);
-			var title = $('.title_wrapper h1').contents().filter(function() {
-				return this.nodeType === 3;
-			})[0].nodeValue;
-			console.log(title);
+			var data = JSON.parse($('script[type="application/ld+json"]').html());
+			var title = data.name;
+			var link = data.url;
+			var poster = data.image;
+			var genres = [];
+			for(var i = 0; i < data.genre.length; i++) {
+				genres.push({
+					link: '/search/title?genres=' + data.genre[i].toLowerCase(),
+					name: data.genre[i]
+				});
+			}
+			var rating = data.contentRating;
+			var actors = [];
+			for(var i = 0; i < data.actor.length; i++) {
+				actors.push({
+					link: data.actor[i].url,
+					name: data.actor[i].name
+				});
+			}
+			var directors = [];
+			if(Array.isArray(data.director)) {
+				for(var i = 0; i < data.director.length; i++) {
+					directors.push({
+						link: data.director[i].url,
+						name: data.director[i].name
+					});
+				}
+			} else {
+				directors.push({
+					link: data.director.url,
+					name: data.director.name
+				});
+			}
+			var creators = [];
+			for(var i = 0; i < data.creator.length; i++) {
+				var name = '';
+				if(typeof data.creator[i].name === 'undefined') {
+					$('#titleDetails .txt-block a').each(function(j, element) {
+						var $element = $(element);
+						if($element.attr('href').indexOf(data.creator[i].url.slice(0, -1)) !== -1) {
+							name = $element.text().trim();
+						}
+					});
+				} else {
+					name = data.creator[i].name;
+				}
+				creators.push({
+					link: data.creator[i].url,
+					name: name
+				});
+			}
+			var summary = $('.summary_text').text().trim();
+			var description = data.description;
+			var published = data.datePublished;
+			var keywords = data.keywords.split(',');
+
+			var runtimeArray = $('time').text().split('\n');
+			var runtime = runtimeArray[1].trim();
+
+			var trailer = {
+				link: data.trailer.embedUrl,
+				name: data.trailer.name
+			};
+			var metascore = parseInt($('.metacriticScore').text().trim());
+			var storyline = $('#titleStoryLine').find('div.inline').eq(0).find('span').text().trim();
 			resolve({
 				id: titleID,
-				name: title
+				name: title,
+				summary: summary,
+				description: description,
+				storyline: storyline,
+				link: link,
+				poster: poster,
+				rating: rating,
+				runtime: runtime,
+				published: published,
+				trailer: trailer,
+				metascore: metascore,
+				genres: genres,
+				actors: actors,
+				directors: directors,
+				creators: creators,
+				keywords: keywords
 			});
 		});
 	});
