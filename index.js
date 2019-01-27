@@ -8,10 +8,7 @@ var baseUrl = 'https://www.imdb.com';
 app.get('/watchlist/:userID', function(req, res) {
 	scraper.getWatchlist(req.params.userID)
 		.then(function(data) {
-			res.json({
-				baseUrl: baseUrl,
-				titles: data
-			});
+			res.json(data);
 		});
 });
 
@@ -34,8 +31,14 @@ app.get('/list/:listID/:page', function(req, res) {
 app.get('/title/:titleID', function(req, res) {
 	scraper.getTitle(req.params.titleID)
 		.then(function(data) {
-			var result = { baseUrl: baseUrl, ...data };
-			res.json(result);
+			res.json(data);
+		});
+});
+
+app.get('/name/:personID', function(req, res) {
+	scraper.getPerson(req.params.personID)
+		.then(function(data) {
+			res.json(data);
 		});
 });
 
