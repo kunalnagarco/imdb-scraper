@@ -1,13 +1,18 @@
 {
   "name": "expressyo-imdb-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "An attempt at the most complete IMDb API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha 'tests/scraperTest.js' -t 15000"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "imdb",
+    "http",
+    "api",
+    "scrape"
+  ],
+  "author": "Kunal Nagar <knlnagar@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
@@ -16,6 +21,9 @@
     "underscore": "1.9.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "request": "^2.88.0"
   }
 }

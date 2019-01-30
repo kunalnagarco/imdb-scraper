@@ -1,9 +1,10 @@
+var constants = require('./src/constants');
+
 var express = require('express');
 var app = express();
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || constants.PORT;
 
 var scraper = require('./src/scraper');
-var baseUrl = 'https://www.imdb.com';
 
 app.get('/watchlist/:userID', function(req, res) {
 	scraper.getWatchlist(req.params.userID)
@@ -15,16 +16,7 @@ app.get('/watchlist/:userID', function(req, res) {
 app.get('/list/:listID/:page', function(req, res) {
 	scraper.getList(req.params.listID, req.params.page)
 		.then(function(data) {
-			res.json({
-				baseUrl: baseUrl,
-				id: req.params.listID,
-				name: data.name,
-				link: data.link,
-				created: data.created,
-				public: data.public,
-				user: data.user,
-				titles: data.titles
-			});
+			res.json(data);
 		});
 });
 
@@ -45,3 +37,5 @@ app.get('/name/:personID', function(req, res) {
 app.listen(port, function() {
 	console.log('Listening on port: ' + port);
 });
+
+module.exports = app;

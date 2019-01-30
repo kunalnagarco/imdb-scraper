@@ -1,3 +1,5 @@
+var constants = require('./constants');
+
 var Movie = require('./models/movie');
 var Person = require('./models/person');
 
@@ -5,14 +7,9 @@ var fetch = require('node-fetch')
 var cheerio = require('cheerio');
 var _ = require('underscore');
 
-var watchlistUrl = 'https://www.imdb.com/user/<userID>/watchlist?sort=date_added%2Cdesc&view=detail';
-var listUrl = 'https://www.imdb.com/list/<listID>/?sort=date_added,desc&st_dt=&mode=detail&page=<pageNumber>';
-var titleUrl = 'https://www.imdb.com/title/<titleID>';
-var personUrl = 'https://www.imdb.com/name/<nameID>';
-
 function getWatchlist(userID) {
 	return new Promise(function(resolve, reject) {
-		fetch(watchlistUrl.replace('<userID>', userID))
+		fetch(constants.IMDB.WATCHLIST.replace('<userID>', userID))
 		.then(function(response) {
 			return response.text()
 		})
@@ -79,7 +76,7 @@ function getWatchlist(userID) {
 function getList(listID, page) {
 	var movies = [];
 	return new Promise(function(resolve, reject) {
-		fetch(listUrl.replace('<listID>', listID).replace('<pageNumber>', page))
+		fetch(constants.IMDB.LIST.replace('<listID>', listID).replace('<pageNumber>', page))
 		.then(function(response) {
 			return response.text()
 		})
@@ -101,7 +98,7 @@ function getList(listID, page) {
 			};
 			$('.lister-list .lister-item').each(function(i, element) {
 				var $that = $(element);
-				var movie = {};
+				var config = {};
 				var $p = $that.find('p');
 				var poster = $that.find('.lister-item-image img').attr('loadlate');
 				var title = $that.find('.lister-item-header a').text();
@@ -156,24 +153,25 @@ function getList(listID, page) {
 				});
 				var votes = parseInt($($p.get(3)).find('span[name="nv"]').eq(0).attr('data-value'));
 				var gross = $($p.get(3)).find('span[name="nv"]').eq(1).attr('data-value');
-				movie.id = id;
-				movie.name = title;
-				movie.link = link;
-				movie.summary = summary;
-				movie.directors = directors;
-				movie.stars = stars;
-				movie.poster = poster;
-				movie.year = year;
-				movie.rating = rating;
-				movie.metascore = metascore;
-				movie.certificate = certificate;
-				movie.runtime = runtime;
-				movie.genres = genres;
-				movie.votes = votes;
+				config.id = id;
+				config.name = title;
+				config.link = link;
+				config.plot = summary;
+				config.directors = directors;
+				config.stars = stars;
+				config.poster = poster;
+				config.year = year;
+				config.rating = rating;
+				config.metascore = metascore;
+				config.certificate = certificate;
+				config.runtime = runtime;
+				config.genres = genres;
+				config.votes = votes;
 				if(typeof gross !== 'undefined') {
 					gross = parseInt(gross.replace(/,/g, ''));
-					movie.gross = gross;
+					config.gross = gross;
 				}
+                var movie = new Movie(config);
 				movies.push(movie);
 			});
 			resolve({
@@ -191,7 +189,7 @@ function getList(listID, page) {
 
 function getTitle(titleID) {
 	return new Promise(function(resolve, reject) {
-		fetch(titleUrl.replace('<titleID>', titleID))
+		fetch(constants.IMDB.TITLE.replace('<titleID>', titleID))
 		.then(function(response) {
 			return response.text()
 		})
@@ -292,7 +290,7 @@ function getTitle(titleID) {
 
 function getPerson(nameID) {
 	return new Promise(function(resolve, reject) {
-		fetch(personUrl.replace('<nameID>', nameID))
+		fetch(constants.IMDB.PERSON.replace('<nameID>', nameID))
 		.then(function(response) {
 			return response.text()
 		})

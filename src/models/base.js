@@ -1,7 +1,9 @@
+var constants = require('../constants');
+
 class Base {
 
 	constructor(config) {
-		this.baseUrl = 'https://www.imdb.com';
+		this.baseUrl = constants.IMDB.BASE;
 		this.id = config.id;
 		this.description = config.description;
 		this.name = config.name;
