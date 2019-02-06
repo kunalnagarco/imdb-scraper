@@ -4,6 +4,7 @@ This package is an attempt at creating the most complete IMDb API.
 
 ## Todos
 
+[] Linting
 [] Add more tests
 [] Code Coverage (probably Instanbul)
 [] CI
