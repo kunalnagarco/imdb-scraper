@@ -17,7 +17,6 @@ function getWatchlist(userID) {
 			var a = body.match('IMDbReactInitialState.push\((.*)\)\;');
 			var b = a[0].split('IMDbReactInitialState.push(')[1];
 			var c = JSON.parse(b.slice(0, -2)).titles;
-			// resolve(c);
 			var titles = [];
 			_.each(c, function(title, i) {
 				var config = {
@@ -304,10 +303,6 @@ function getPerson(nameID) {
 			var filmography = [];
 			$('#filmography').find('.head').each(function(i, element) {
 				var title = $(element).attr('data-category');
-				// var single = {
-				// 	title: (title.charAt(0).toUpperCase() + title.substring(1).toLowerCase()),
-				// 	items: []
-				// };
 				var single = {
 					title: $('#filmo-head-' + title).find('a').text().trim(),
 					items: []

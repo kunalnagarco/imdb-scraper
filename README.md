@@ -2,6 +2,12 @@
 
 This package is an attempt at creating the most complete IMDb API.
 
+## Todos
+
+[] Add more tests
+[] Code Coverage (probably Instanbul)
+[] CI
+
 ## Endpoints
 
 Here are the endpoints supported by this API:
@@ -1030,3 +1036,19 @@ Here are the endpoints supported by this API:
   ]
 }
 ```
+
+## FAQ
+
+Here's a list of questions you may have:
+
+### Are you scraping the IMDb website for results?
+
+Yes. Because IMDb doesn't have an official API, yet.
+
+### What if the IMDb website HTML changes?
+
+The package is Open Source. I'll try my best to keep it up to date for as long as possible. If you notice the package is not working, please feel free to open an issue.
+
+### Can I contribute?
+
+Of course! As the package description mentions, I'd like this to be the most complete IMDb API with as many data points available. A lot of the packages out there don't provide extensive information on Movies, TV Shows etc. This package aims to change that and I'd really appreciate your help. Code reviews are welcome too!
