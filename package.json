@@ -17,12 +17,12 @@
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "underscore": "1.9.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "cors": "^2.8.5",
     "mocha": "^5.2.0",
     "node-fetch": "^2.3.0",
     "request": "^2.88.0"
