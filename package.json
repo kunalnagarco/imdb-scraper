@@ -4,6 +4,7 @@
   "description": "An attempt at the most complete IMDb API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "./node_modules/.bin/mocha 'tests/scraperTest.js' -t 15000"
   },
   "keywords": [
@@ -21,9 +22,9 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "cors": "^2.8.5",
     "mocha": "^5.2.0",
     "node-fetch": "^2.3.0",
-    "nodemon": "^1.18.9",
     "request": "^2.88.0"
   }
 }

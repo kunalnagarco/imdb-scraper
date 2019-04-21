@@ -14,9 +14,12 @@ function getWatchlist(userID) {
 			return response.text()
 		})
 		.then(function(body) {
+            var $ = cheerio.load(body);
 			var a = body.match('IMDbReactInitialState.push\((.*)\)\;');
 			var b = a[0].split('IMDbReactInitialState.push(')[1];
-			var c = JSON.parse(b.slice(0, -2)).titles;
+            var listInfo = JSON.parse(b.slice(0, -2)).list;
+            var c = JSON.parse(b.slice(0, -2)).titles;
+            var data = {};
 			var titles = [];
 			_.each(c, function(title, i) {
 				var config = {
@@ -67,7 +70,10 @@ function getWatchlist(userID) {
 				});
 				titles.push(JSON.parse(JSON.stringify(movie)));
 			});
-			resolve(titles);
+            data.id = listInfo.id;
+            data.name = listInfo.name;
+            data.titles = titles;
+			resolve(data);
 		});
 	});
 };

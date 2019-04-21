@@ -1,9 +1,12 @@
 var constants = require('./src/constants');
 var express = require('express');
+var cors = require('cors');
 var app = express();
 var port = process.env.PORT || constants.PORT;
 
 var scraper = require('./src/scraper');
+
+app.use(cors())
 
 app.get('/watchlist/:userID', function(req, res) {
 	scraper.getWatchlist(req.params.userID)
