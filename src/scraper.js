@@ -7,6 +7,12 @@ var fetch = require('node-fetch')
 var cheerio = require('cheerio');
 var _ = require('underscore');
 
+/**
+ * Get a user's watchlist
+ *
+ * @param  {String} userID e.g. ur39600768
+ * @return {Object}
+ */
 function getWatchlist(userID) {
 	return new Promise(function(resolve, reject) {
 		fetch(constants.IMDB.WATCHLIST.replace('<userID>', userID))
@@ -78,6 +84,13 @@ function getWatchlist(userID) {
 	});
 };
 
+/**
+ * Get a user's list (public only)
+ *
+ * @param  {String} listID IMDb List ID e.g. ls057246838
+ * @param  {Number} page   List page number e.g. 1
+ * @return {Object}
+ */
 function getList(listID, page) {
 	var movies = [];
 	return new Promise(function(resolve, reject) {
@@ -192,6 +205,12 @@ function getList(listID, page) {
 	});
 };
 
+/**
+ * Get Title details (Movies, TV Shows etc.)
+ *
+ * @param  {String} titleID IMDb Title ID e.g. tt0111161
+ * @return {Object}
+ */
 function getTitle(titleID) {
 	return new Promise(function(resolve, reject) {
 		fetch(constants.IMDB.TITLE.replace('<titleID>', titleID))
@@ -293,6 +312,12 @@ function getTitle(titleID) {
 	});
 };
 
+/**
+ * Get Person details (TV stars, Directors etc.)
+ *
+ * @param  {String} nameID IMDb user ID e.g. nm0000175
+ * @return {Object}
+ */
 function getPerson(nameID) {
 	return new Promise(function(resolve, reject) {
 		fetch(constants.IMDB.PERSON.replace('<nameID>', nameID))

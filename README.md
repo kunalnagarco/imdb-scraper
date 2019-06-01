@@ -3,6 +3,8 @@
 
 This package is an attempt at creating the most complete IMDb API.
 
+**Note: Please understand that IMDb does not allow scraping of web pages. Do NOT use this in production.**
+
 ## Todos
 
 - [ ] Linting
