@@ -5,13 +5,6 @@ This package is an attempt at creating the most complete IMDb API.
 
 **Note: Please understand that IMDb does not allow scraping of web pages. Do NOT use this in production.**
 
-## Todos
-
-- [ ] Linting
-- [ ] Add more tests
-- [ ] Code Coverage (probably Instanbul)
-- [ ] CI
-
 ## Endpoints
 
 Here are the endpoints supported by this API:
@@ -22,7 +15,8 @@ Here are the endpoints supported by this API:
 /GET /watchlist/:userID
 ```
 
-#### Response
+<details>
+  <summary>Response</summary>
 
 ```json
 [
@@ -150,6 +144,7 @@ Here are the endpoints supported by this API:
   }
 ]
 ```
+</details>
 
 ### Get an IMDb list (public only)
 
@@ -157,7 +152,8 @@ Here are the endpoints supported by this API:
 /GET /list/:listID/:page
 ```
 
-#### Response
+<details>
+  <summary>Response</summary>
 
 ```json
 {
@@ -296,6 +292,7 @@ Here are the endpoints supported by this API:
   ]
 }
 ```
+</details>
 
 ### Get a title (movie, series etc)
 
@@ -303,7 +300,8 @@ Here are the endpoints supported by this API:
 /GET /title/:titleID
 ```
 
-#### Response
+<details>
+  <summary>Response</summary>
 
 ```json
 {
@@ -376,6 +374,7 @@ Here are the endpoints supported by this API:
   ]
 }
 ```
+</details>
 
 ### Get a person (not a user)
 
@@ -383,7 +382,8 @@ Here are the endpoints supported by this API:
 /GET /name/:personID
 ```
 
-#### Response
+<details>
+  <summary>Response</summary>
 
 ```json
 {
@@ -1040,6 +1040,7 @@ Here are the endpoints supported by this API:
   ]
 }
 ```
+</details>
 
 ## FAQ
 
