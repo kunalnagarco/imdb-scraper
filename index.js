@@ -1,43 +1,41 @@
-var constants = require('./src/constants');
-var express = require('express');
-var cors = require('cors');
-var app = express();
-var port = process.env.PORT || constants.PORT;
+const express = require('express')
+const cors = require('cors')
+const constants = require('./src/constants')
 
-var scraper = require('./src/scraper');
+const app = express()
+const port = process.env.PORT || constants.PORT
+
+const scraper = require('./src/scraper')
 
 app.use(cors())
 
-app.get('/watchlist/:userID', function(req, res) {
-	scraper.getWatchlist(req.params.userID)
-		.then(function(data) {
-			res.json(data);
-		});
-});
+app.get('/watchlist/:userID', (req, res) => {
+  scraper.getWatchlist(req.params.userID).then((data) => {
+    res.json(data)
+  })
+})
 
-app.get('/list/:listID/:page', function(req, res) {
-	scraper.getList(req.params.listID, req.params.page)
-		.then(function(data) {
-			res.json(data);
-		});
-});
+app.get('/list/:listID/:page', (req, res) => {
+  scraper.getList(req.params.listID, req.params.page).then((data) => {
+    res.json(data)
+  })
+})
 
-app.get('/title/:titleID', function(req, res) {
-	scraper.getTitle(req.params.titleID)
-		.then(function(data) {
-			res.json(data);
-		});
-});
+app.get('/title/:titleID', (req, res) => {
+  scraper.getTitle(req.params.titleID).then((data) => {
+    res.json(data)
+  })
+})
 
-app.get('/name/:personID', function(req, res) {
-	scraper.getPerson(req.params.personID)
-		.then(function(data) {
-			res.json(data);
-		});
-});
+app.get('/name/:personID', (req, res) => {
+  scraper.getPerson(req.params.personID).then((data) => {
+    res.json(data)
+  })
+})
 
-app.listen(port, function() {
-	console.log('Listening on port: ' + port);
-});
+app.listen(port, () => {
+  /* eslint-disable no-console */
+  console.log(`Listening on port: ${port}`)
+})
 
-module.exports = app;
+module.exports = app
