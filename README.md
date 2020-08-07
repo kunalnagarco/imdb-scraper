@@ -1,5 +1,4 @@
 # expressyo-imdb-scraper
-[![Known Vulnerabilities](https://snyk.io/test/github/kunalnagar/expressyo-imdb-scraper/badge.svg)](https://snyk.io/test/github/kunalnagar/expressyo-imdb-scraper)
 
 This package is an attempt at creating the most complete IMDb API.
 
