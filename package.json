@@ -1,6 +1,6 @@
 {
   "name": "expressyo-imdb-scraper",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "An attempt at the most complete IMDb API",
   "keywords": [
     "imdb",
@@ -51,9 +51,5 @@
     "prettier": "^2.0.1",
     "request": "^2.88.0",
     "sort-package-json": "^1.40.0"
-  },
-  "engines": {
-    "node": "12.16.1"
-  },
-  "engineStrict": true
+  }
 }
