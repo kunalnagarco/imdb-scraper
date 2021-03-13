@@ -20,7 +20,7 @@ class Movie extends Base {
     this.creators = config.creators
   }
 
-  static buildGenre(genre) {
+  buildGenre(genre) {
     return {
       link: `/search/title?genres=${genre.toLowerCase()}`,
       name: genre,

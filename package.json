@@ -1,5 +1,5 @@
 {
-  "name": "expressyo-imdb-scraper",
+  "name": "@kunalnagarco/imdb-scraper",
   "version": "1.0.0",
   "description": "An attempt at the most complete IMDb API",
   "keywords": [
@@ -14,7 +14,7 @@
   "scripts": {
     "lint": "eslint --fix src/ tests/ --ext .js --max-warnings 0",
     "start": "node index.js",
-    "test": "./node_modules/.bin/mocha 'tests/scraperTest.js' -t 15000"
+    "test": "mocha 'tests/scraperTest.js' -t 15000"
   },
   "husky": {
     "hooks": {
@@ -29,6 +29,9 @@
       "prettier --write",
       "eslint --fix src/ --ext .js --max-warnings 0"
     ]
+  },
+  "resolutions": {
+    "minimist": "1.2.3"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
@@ -51,5 +54,8 @@
     "prettier": "^2.0.1",
     "request": "^2.88.0",
     "sort-package-json": "^1.40.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
