@@ -1,0 +1,35 @@
+version: 2.1
+
+commands:
+  setup:
+    steps:
+      - checkout
+      - run:
+          name: 'Login to npm'
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+      - run: yarn install --frozen-lockfile
+
+executors:
+  node:
+    docker:
+      - image: circleci/node:14.16.0
+
+jobs:
+  lint-build:
+    executor: node
+    steps:
+      - setup
+      - run:
+          name: Lint source code
+          command: yarn lint
+      - run:
+          name: Build distribution files
+          command: yarn build
+      - persist_to_workspace:
+          root: .
+          paths: .
+
+workflows:
+  test-and-publish:
+    jobs:
+      - lint-build
