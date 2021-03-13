@@ -14,6 +14,7 @@
   "scripts": {
     "lint": "eslint --fix src/ tests/ --ext .js,.ts,.tsx --max-warnings 0",
     "start": "tsc && node dist/index.js",
+    "build": "tsc",
     "test": "ts-mocha -p tsconfig.json tests/**/*.spec.ts -t 150000"
   },
   "husky": {
