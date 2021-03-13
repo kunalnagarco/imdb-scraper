@@ -32,7 +32,6 @@ jobs:
   publish-release:
     executor: node
     steps:
-      - setup
       - attach_workspace:
           at: .
       - run:
