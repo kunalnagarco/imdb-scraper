@@ -29,7 +29,23 @@ jobs:
           root: .
           paths: .
 
+  publish-release:
+    executor: node
+    steps:
+      - setup
+      - attach_workspace:
+          at: .
+      - run:
+          name: Publish npm package
+          command: yarn semantic-release
+
 workflows:
   test-and-publish:
     jobs:
       - lint-build
+      - publish-release:
+          filters:
+            branches:
+              only: master
+          requires:
+            - lint-build
