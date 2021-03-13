@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.0...v1.0.1) (2021-03-13)
+
+
+### Chores
+
+* Fix Vulnerabilities [IS-4] ([#43](https://github.com/kunalnagarco/imdb-scraper/issues/43)) ([49b58aa](https://github.com/kunalnagarco/imdb-scraper/commit/49b58aa8a692f922e56a2969cb21fcc542d30ece))
+
 ## 1.0.0 (2021-03-13)
 
 
