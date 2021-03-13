@@ -35,8 +35,9 @@ jobs:
       - setup
       - attach_workspace:
           at: .
-      - run: Publish npm package
-        command: yarn semantic-release
+      - run:
+          name: Publish npm package
+          command: yarn semantic-release
 
 workflows:
   test-and-publish:
