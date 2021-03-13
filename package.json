@@ -8,6 +8,10 @@
     "api",
     "scrape"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunalnagarco/imdb-scraper.git"
+  },
   "license": "MIT",
   "author": "Kunal Nagar <knlnagar@gmail.com>",
   "main": "index.js",
@@ -33,7 +37,9 @@
     ]
   },
   "resolutions": {
-    "minimist": "1.2.3"
+    "mem": "4.0.0 ",
+    "minimist": "1.2.3",
+    "yargs-parser": "18.1.2"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
@@ -75,9 +81,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kunalnagarco/imdb-scraper.git"
   }
 }
