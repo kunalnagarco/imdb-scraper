@@ -1,4 +1,4 @@
-module.exports = Object.freeze({
+export const constants = {
   IMDB: {
     BASE: 'https://www.imdb.com',
     LIST:
@@ -13,4 +13,4 @@ module.exports = Object.freeze({
     LIST_ID: 'ls057246838',
     USER_ID: 'ur39600768',
   },
-})
+};
