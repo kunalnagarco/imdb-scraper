@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.5](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.4...v1.0.5) (2021-06-05)
+
+
+### Bug Fixes
+
+* Remove npm release ([b6e8c64](https://github.com/kunalnagarco/imdb-scraper/commit/b6e8c648e56323688c57b0417d9e9502d9ac0a07))
+
 ### [1.0.4](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.3...v1.0.4) (2021-06-05)
 
 
