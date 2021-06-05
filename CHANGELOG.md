@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.6](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.5...v1.0.6) (2021-06-05)
+
+
+### Chores
+
+* **deps:** update dependency eslint-plugin-prettier to v3.4.0 ([#54](https://github.com/kunalnagarco/imdb-scraper/issues/54)) ([7f37143](https://github.com/kunalnagarco/imdb-scraper/commit/7f371434f3a83f72e912f07fab0ac913618e5fd2))
+* **deps:** update dependency mem to v4.3.0 ([#55](https://github.com/kunalnagarco/imdb-scraper/issues/55)) ([b551c69](https://github.com/kunalnagarco/imdb-scraper/commit/b551c69e7cd8b706dd234ffbef8516e94bbbbd6b))
+* **deps:** update semantic-release monorepo ([#53](https://github.com/kunalnagarco/imdb-scraper/issues/53)) ([e42bb49](https://github.com/kunalnagarco/imdb-scraper/commit/e42bb49c692e55761456b3f97637b0f6033c4504))
+
 ### [1.0.5](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.4...v1.0.5) (2021-06-05)
 
 
