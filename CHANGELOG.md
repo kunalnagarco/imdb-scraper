@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.7](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.6...v1.0.7) (2021-06-05)
+
+
+### Chores
+
+* **deps:** update dependency @types/underscore to v1.11.2 ([#57](https://github.com/kunalnagarco/imdb-scraper/issues/57)) ([f48c16d](https://github.com/kunalnagarco/imdb-scraper/commit/f48c16dea293978efc2f1c9247f64a7d5e37b3fd))
+* **deps:** update dependency eslint-config-airbnb-base to v14 ([#58](https://github.com/kunalnagarco/imdb-scraper/issues/58)) ([f707e17](https://github.com/kunalnagarco/imdb-scraper/commit/f707e17cb55e32927a1efef5048b94dd18a93a4a))
+* **deps:** update dependency husky to v6 ([#59](https://github.com/kunalnagarco/imdb-scraper/issues/59)) ([ceb6f68](https://github.com/kunalnagarco/imdb-scraper/commit/ceb6f6838e1de28aeaa1d1c61272c246a60941b7))
+
 ### [1.0.6](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.5...v1.0.6) (2021-06-05)
 
 
