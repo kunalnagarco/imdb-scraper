@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.2](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.1...v1.0.2) (2021-06-05)
+
+
+### Chores
+
+* Trigger another ([4d08e35](https://github.com/kunalnagarco/imdb-scraper/commit/4d08e3516d1cb1db0cdbd721023f023cfcd46127))
+* Trigger build ([f5bca63](https://github.com/kunalnagarco/imdb-scraper/commit/f5bca636af9c436f2c75a07cf8b78e79469ea344))
+* Update Renovate config ([dd59cd0](https://github.com/kunalnagarco/imdb-scraper/commit/dd59cd0ec992de45bd0fede07f1d904176504121))
+
 ### [1.0.1](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.0...v1.0.1) (2021-03-13)
 
 
