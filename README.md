@@ -1,6 +1,6 @@
 # @kunalnagarco/imdb-scraper
 
-This package is an attempt at creating the most complete IMDb API
+This package is an attempt at creating the most complete IMDb API.
 
 ## IMPORTANT:
 
