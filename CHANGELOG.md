@@ -1,5 +1,16 @@
 # Changelog
 
+### [1.0.3](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.2...v1.0.3) (2021-06-05)
+
+
+### Chores
+
+* **deps:** pin dependencies ([#47](https://github.com/kunalnagarco/imdb-scraper/issues/47)) ([3bf6c9a](https://github.com/kunalnagarco/imdb-scraper/commit/3bf6c9a5cfb7e3a9e47ed6fcb3332833321b0d86))
+* **deps:** update dependency @types/express to v4.17.12 ([#74](https://github.com/kunalnagarco/imdb-scraper/issues/74)) ([f684e90](https://github.com/kunalnagarco/imdb-scraper/commit/f684e90488b0cff82a52b8d1f9fdc056b1957efb))
+* **deps:** update dependency minimist to v1.2.5 ([#48](https://github.com/kunalnagarco/imdb-scraper/issues/48)) ([20cf884](https://github.com/kunalnagarco/imdb-scraper/commit/20cf8847b29a935b19f0491bb18392a8a506aa12))
+* **deps:** update node.js to v14.17.0 ([#51](https://github.com/kunalnagarco/imdb-scraper/issues/51)) ([011b369](https://github.com/kunalnagarco/imdb-scraper/commit/011b369d86bd347041d84d3d1f2220682144799b))
+* **deps:** update node.js to v14.17.0 ([#52](https://github.com/kunalnagarco/imdb-scraper/issues/52)) ([483c106](https://github.com/kunalnagarco/imdb-scraper/commit/483c1066dae1e17b793fb27649ea64dd0a15d39c))
+
 ### [1.0.2](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.1...v1.0.2) (2021-06-05)
 
 
