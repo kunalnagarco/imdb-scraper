@@ -1,5 +1,25 @@
 # Changelog
 
+### [1.0.8](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.7...v1.0.8) (2021-06-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency underscore to v1.12.1 [security] ([#66](https://github.com/kunalnagarco/imdb-scraper/issues/66)) ([b7566d7](https://github.com/kunalnagarco/imdb-scraper/commit/b7566d72d6228a66d1fe643f6a8c4211fafc3e20))
+
+
+### Chores
+
+* **deps:** update dependency @types/node-fetch to v2.5.10 ([#67](https://github.com/kunalnagarco/imdb-scraper/issues/67)) ([e9c17b1](https://github.com/kunalnagarco/imdb-scraper/commit/e9c17b15a0080cc2c16a417f4fdaa37bea15b05d))
+* **deps:** update dependency eslint to v7.28.0 ([#69](https://github.com/kunalnagarco/imdb-scraper/issues/69)) ([5f2a831](https://github.com/kunalnagarco/imdb-scraper/commit/5f2a831b88a040b197067a42b007d021980d3daf))
+* **deps:** update dependency eslint-config-prettier to v8.3.0 ([#71](https://github.com/kunalnagarco/imdb-scraper/issues/71)) ([0a01190](https://github.com/kunalnagarco/imdb-scraper/commit/0a01190af46e072da0cdcd471ce3a637681568c4))
+* **deps:** update dependency lint-staged to v11 ([#60](https://github.com/kunalnagarco/imdb-scraper/issues/60)) ([ba058e7](https://github.com/kunalnagarco/imdb-scraper/commit/ba058e7a9b7ce4b6a982658c48e865d82c0caa8b))
+* **deps:** update dependency mem to v8 ([#61](https://github.com/kunalnagarco/imdb-scraper/issues/61)) ([793a73e](https://github.com/kunalnagarco/imdb-scraper/commit/793a73e575af34c3d3972d171f4c8625b847b42c))
+* **deps:** update dependency prettier to v2.3.1 ([#64](https://github.com/kunalnagarco/imdb-scraper/issues/64)) ([e1b1622](https://github.com/kunalnagarco/imdb-scraper/commit/e1b1622d249a7a156559480c33608347b14deb15))
+* **deps:** update dependency sort-package-json to v1.50.0 ([#56](https://github.com/kunalnagarco/imdb-scraper/issues/56)) ([5b538b5](https://github.com/kunalnagarco/imdb-scraper/commit/5b538b56439097d06b9835f174d065ac52519fff))
+* **deps:** update dependency typescript to v4.3.2 ([#68](https://github.com/kunalnagarco/imdb-scraper/issues/68)) ([06b6ae9](https://github.com/kunalnagarco/imdb-scraper/commit/06b6ae946de070d30f9d23276d033e4ab571be99))
+* **deps:** update dependency yargs-parser to v20 ([#63](https://github.com/kunalnagarco/imdb-scraper/issues/63)) ([0f8ad74](https://github.com/kunalnagarco/imdb-scraper/commit/0f8ad74fe828dc7102cd1f72c41b064e86487efb))
+
 ### [1.0.7](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.6...v1.0.7) (2021-06-05)
 
 
