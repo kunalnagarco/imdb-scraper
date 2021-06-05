@@ -37,7 +37,7 @@
     ]
   },
   "resolutions": {
-    "mem": "4.3.0",
+    "mem": "8.1.1",
     "minimist": "1.2.5",
     "yargs-parser": "18.1.3"
   },
