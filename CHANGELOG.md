@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.4](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.3...v1.0.4) (2021-06-05)
+
+
+### Chores
+
+* **deps:** update dependency yargs-parser to v18.1.3 ([3184ff3](https://github.com/kunalnagarco/imdb-scraper/commit/3184ff3bb4538a2b5a595bd1a7a1e971ced20320))
+
 ### [1.0.3](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.2...v1.0.3) (2021-06-05)
 
 
