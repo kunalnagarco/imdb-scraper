@@ -1,5 +1,15 @@
 # Changelog
 
+### [1.0.9](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.8...v1.0.9) (2021-06-05)
+
+
+### Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v4.6.0 ([#70](https://github.com/kunalnagarco/imdb-scraper/issues/70)) ([2620737](https://github.com/kunalnagarco/imdb-scraper/commit/26207371f0b919804eea882c51af6d17cb0d5cfa))
+* **deps:** update dependency eslint-plugin-import to v2.23.4 ([#73](https://github.com/kunalnagarco/imdb-scraper/issues/73)) ([81c8baf](https://github.com/kunalnagarco/imdb-scraper/commit/81c8baf8125504424e41f8395deefda409a2a39f))
+* **deps:** update dependency mocha to v8 ([#62](https://github.com/kunalnagarco/imdb-scraper/issues/62)) ([a9c8a0a](https://github.com/kunalnagarco/imdb-scraper/commit/a9c8a0a752a0a252009914b237ba2622ece8720b))
+* **deps:** update typescript-eslint monorepo to v4.26.0 ([#72](https://github.com/kunalnagarco/imdb-scraper/issues/72)) ([5e915fb](https://github.com/kunalnagarco/imdb-scraper/commit/5e915fba97fa1e628599706e6cb3f712756dbe29))
+
 ### [1.0.8](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.7...v1.0.8) (2021-06-05)
 
 
