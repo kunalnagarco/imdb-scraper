@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.11](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.10...v1.0.11) (2021-06-11)
+
+
+### Chores
+
+* **deps:** update dependency @semantic-release/release-notes-generator to v9.0.3 ([1610c1c](https://github.com/kunalnagarco/imdb-scraper/commit/1610c1ca069f841055b3a9d273125b154840e8f2))
+
 ### [1.0.10](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.9...v1.0.10) (2021-06-06)
 
 
