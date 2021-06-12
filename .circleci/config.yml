@@ -24,7 +24,7 @@ jobs:
           command: yarn lint
       - run:
           name: Start server and test
-          command: yarn start && yarn test
+          command: yarn start-server-and-test start http://localhost:3000 test
       - run:
           name: Build distribution files
           command: yarn build
