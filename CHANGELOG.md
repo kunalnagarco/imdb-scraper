@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.16](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.15...v1.0.16) (2021-06-12)
+
+
+### Chores
+
+* **deps:** pin dependencies ([cd2e624](https://github.com/kunalnagarco/imdb-scraper/commit/cd2e62492de4e3382c4789f3ff0c8075edbb531a))
+
 ### [1.0.15](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.14...v1.0.15) (2021-06-12)
 
 
