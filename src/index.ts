@@ -9,6 +9,10 @@ const port = process.env.PORT || constants.PORT;
 
 app.use(cors());
 
+app.get('/', (req, res) => {
+  res.sendStatus(200);
+});
+
 app.get('/watchlist/:userID', (req, res) => {
   getWatchlist(req.params.userID).then((data) => {
     res.json(data);
