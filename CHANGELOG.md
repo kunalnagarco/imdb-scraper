@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.0.14](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.13...v1.0.14) (2021-06-12)
+
+
+### Chores
+
+* **deps:** update dependency mocha to v9 ([#76](https://github.com/kunalnagarco/imdb-scraper/issues/76)) ([84244ef](https://github.com/kunalnagarco/imdb-scraper/commit/84244ef61f12dcc25b37e36ab0e2197618a9e579))
+* Add tests to CI ([#78](https://github.com/kunalnagarco/imdb-scraper/issues/78)) ([8ace572](https://github.com/kunalnagarco/imdb-scraper/commit/8ace572e9486fec10096b48ee61a45389476b9f2))
+
 ### [1.0.13](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.12...v1.0.13) (2021-06-11)
 
 
