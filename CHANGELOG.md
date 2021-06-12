@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.15](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.14...v1.0.15) (2021-06-12)
+
+
+### Chores
+
+* Upgrade husky v4 to v6 ([#80](https://github.com/kunalnagarco/imdb-scraper/issues/80)) ([cd37ff6](https://github.com/kunalnagarco/imdb-scraper/commit/cd37ff69db070f3a0d4bdcc3a85ed2ed4af5543d))
+
 ### [1.0.14](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.13...v1.0.14) (2021-06-12)
 
 
