@@ -44,10 +44,10 @@ jobs:
 workflows:
   test-and-publish:
     jobs:
-      - lint-build
+      - lint-build-test
       - publish-release:
           filters:
             branches:
               only: master
           requires:
-            - lint-build
+            - lint-build-test
