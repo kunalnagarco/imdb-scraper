@@ -15,13 +15,16 @@ executors:
       - image: circleci/node:14.17.0
 
 jobs:
-  lint-build:
+  lint-build-test:
     executor: node
     steps:
       - setup
       - run:
           name: Lint source code
           command: yarn lint
+      - run:
+          name: Start server and test
+          command: yarn start && yarn test
       - run:
           name: Build distribution files
           command: yarn build
