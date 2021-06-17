@@ -75,7 +75,7 @@
     "sort-package-json": "1.50.0",
     "start-server-and-test": "1.12.5",
     "ts-mocha": "8.0.0",
-    "typescript": "4.3.2"
+    "typescript": "4.3.3"
   },
   "publishConfig": {
     "access": "public"
