@@ -36,7 +36,7 @@
   "resolutions": {
     "mem": "8.1.1",
     "minimist": "1.2.5",
-    "yargs-parser": "20.2.7"
+    "yargs-parser": "20.2.9"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
