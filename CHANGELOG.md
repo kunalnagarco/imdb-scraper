@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.34...v1.1.0) (2021-07-02)
+
+
+### Features
+
+* Update plot field + fixes ([a564bb6](https://github.com/kunalnagarco/imdb-scraper/commit/a564bb612f2b97130ec07aaaaa892d5bda359e8e))
+
 ### [1.0.34](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.33...v1.0.34) (2021-07-01)
 
 
