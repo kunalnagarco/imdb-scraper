@@ -17,12 +17,12 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --fix src/ tests/ --ext .js,.ts,.tsx --max-warnings 0",
-    "start": "yarn tsc && node dist/index.js",
-    "build": "yarn tsc",
-    "test": "yarn ts-mocha -p tsconfig.json tests/**/*.spec.ts -t 150000",
-    "test:custom": "yarn start-server-and-test 'yarn start' http://localhost:3000 'yarn test'",
-    "semantic-release": "yarn semantic-release",
-    "prepare": "yarn husky install"
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "ts-mocha -p tsconfig.json tests/**/*.spec.ts -t 150000",
+    "test:custom": "start-server-and-test 'yarn start' http://localhost:3000 'yarn test'",
+    "semantic-release": "semantic-release",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "package.json": [
