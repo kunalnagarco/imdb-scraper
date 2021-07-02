@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.0...v1.1.1) (2021-07-02)
+
+
+### Chores
+
+* Add Procfile ([8ae2f3a](https://github.com/kunalnagarco/imdb-scraper/commit/8ae2f3aa3db7c21d59a1bde720e7e8f38994a249))
+
 ## [1.1.0](https://github.com/kunalnagarco/imdb-scraper/compare/v1.0.34...v1.1.0) (2021-07-02)
 
 
