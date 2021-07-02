@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.1.2](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.1...v1.1.2) (2021-07-02)
+
+
+### Bug Fixes
+
+* Add build step ([17e93c5](https://github.com/kunalnagarco/imdb-scraper/commit/17e93c5c02963a3b78ff05fa96fc5df70c08555d))
+* Start script ([48c9ac5](https://github.com/kunalnagarco/imdb-scraper/commit/48c9ac5f886d3fb624ef4fa59b7a76a4e6f4e41e))
+* Yarn values ([bc7ccfb](https://github.com/kunalnagarco/imdb-scraper/commit/bc7ccfb854be00cf4e65d639269f46020bdfc2b8))
+
 ### [1.1.1](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.0...v1.1.1) (2021-07-02)
 
 
