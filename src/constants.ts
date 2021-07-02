@@ -1,8 +1,7 @@
 export const constants = {
   IMDB: {
     BASE: 'https://www.imdb.com',
-    LIST:
-      'https://www.imdb.com/list/<listID>/?sort=date_added,desc&st_dt=&mode=detail&page=<pageNumber>',
+    LIST: 'https://www.imdb.com/list/<listID>/?sort=date_added,desc&st_dt=&mode=detail&page=<pageNumber>',
     PERSON: 'https://www.imdb.com/name/<nameID>',
     TITLE: 'https://www.imdb.com/title/<titleID>',
     WATCHLIST:

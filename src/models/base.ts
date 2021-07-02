@@ -11,23 +11,23 @@ export interface IBase {
 }
 
 export default class Base {
-  protected _baseUrl: string;
-  protected _id: string;
-  protected _description: string;
-  protected _name: string;
-  protected _type: string;
-  protected _link: string;
-  protected _img: string;
-  protected _keywords: string;
+  protected baseUrl: string;
+  protected id: string;
+  protected description: string;
+  protected name: string;
+  protected type: string;
+  protected link: string;
+  protected img: string;
+  protected keywords: string;
 
   constructor(config: IBase) {
-    this._baseUrl = constants.IMDB.BASE;
-    this._id = config.id;
-    this._description = config.description;
-    this._name = config.name;
-    this._type = config.type;
-    this._link = config.link;
-    this._img = config.img;
-    this._keywords = config.keywords;
+    this.baseUrl = constants.IMDB.BASE;
+    this.id = config.id;
+    this.description = config.description;
+    this.name = config.name;
+    this.type = config.type;
+    this.link = config.link;
+    this.img = config.img;
+    this.keywords = config.keywords;
   }
 }

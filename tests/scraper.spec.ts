@@ -23,5 +23,10 @@ describe('/GET /list/:listID/:page', () => {
     expect(body.user.id).to.equal(constants.TEST.USER_ID);
     expect(body.user.name).to.equal('iwantmoarcookiez');
     expect(body.public).to.be.true;
+    expect(body.titles[0]).to.haveOwnProperty('id');
+    expect(body.titles[0]).to.haveOwnProperty('name');
+    expect(body.titles[0]).to.haveOwnProperty('link');
+    expect(body.titles[0]).to.haveOwnProperty('year');
+    expect(body.titles[0]).to.haveOwnProperty('plot');
   });
 });

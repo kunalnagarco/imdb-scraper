@@ -161,7 +161,12 @@ export const getList = async (listID: string, page: string): Promise<void> => {
             });
           }
 
-          const summary = $that.find('.ratings-metascore + p').text().trim();
+          const summary = $that
+            .find('.ipl-rating-widget')
+            .nextAll('p')
+            .first()
+            .text()
+            .trim();
           const directors: any = [];
           $($p.get(2))
             .children()

@@ -9,24 +9,24 @@ export interface IPerson extends IBase {
 }
 
 export default class Person extends Base {
-  protected _born: string;
-  protected _hometown: string;
-  protected _jobTitles: string;
-  protected _height: string;
-  protected _filmography: string;
+  protected born: string;
+  protected hometown: string;
+  protected jobTitles: string;
+  protected height: string;
+  protected filmography: string;
 
   constructor(config: IPerson) {
     super(config);
-    this._born = config.born;
-    this._hometown = config.hometown;
-    this._jobTitles = config.jobTitles;
-    this._height = config.height;
-    this._filmography = config.filmography;
+    this.born = config.born;
+    this.hometown = config.hometown;
+    this.jobTitles = config.jobTitles;
+    this.height = config.height;
+    this.filmography = config.filmography;
     this.setLink();
   }
 
   setLink(): void {
-    this._link = `/name/${this._id}`;
+    this.link = `/name/${this.id}`;
   }
 }
 
