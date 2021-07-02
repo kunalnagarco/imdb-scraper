@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.4](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.3...v1.1.4) (2021-07-02)
+
+
+### Chores
+
+* **deps:** update dependency @types/underscore to v1.11.3 ([14781f1](https://github.com/kunalnagarco/imdb-scraper/commit/14781f1edd6561505ebaeff4213eefc3d1c339a3))
+
 ### [1.1.3](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.2...v1.1.3) (2021-07-02)
 
 
