@@ -20,7 +20,7 @@
     "start": "node dist/index.js",
     "build": "tsc",
     "test": "ts-mocha -p tsconfig.json tests/**/*.spec.ts -t 150000",
-    "test:custom": "start-server-and-test 'yarn start' http://localhost:3000 'yarn test'",
+    "test:custom": "start-server-and-test 'yarn build && yarn start' http://localhost:3000 'yarn test'",
     "semantic-release": "semantic-release",
     "prepare": "husky install"
   },
