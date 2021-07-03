@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.5](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.4...v1.1.5) (2021-07-03)
+
+
+### Chores
+
+* **deps:** update dependency eslint to v7.30.0 ([6c1e03f](https://github.com/kunalnagarco/imdb-scraper/commit/6c1e03fc854020c6b7b855d12c535e42be15e681))
+
 ### [1.1.4](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.3...v1.1.4) (2021-07-02)
 
 
