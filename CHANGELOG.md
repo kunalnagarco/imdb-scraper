@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.7](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.6...v1.1.7) (2021-07-05)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#85](https://github.com/kunalnagarco/imdb-scraper/issues/85)) ([984fa23](https://github.com/kunalnagarco/imdb-scraper/commit/984fa231efb1bb1a36ac4a81e78976dc614fbe5f))
+
 ### [1.1.6](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.5...v1.1.6) (2021-07-03)
 
 
