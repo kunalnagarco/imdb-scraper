@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.10](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.9...v1.1.10) (2021-07-06)
+
+
+### Chores
+
+* **deps:** update dependency start-server-and-test to v1.12.6 ([3fe4c73](https://github.com/kunalnagarco/imdb-scraper/commit/3fe4c730075d5a113210e477c0a2da1e95cd9824))
+
 ### [1.1.9](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.8...v1.1.9) (2021-07-05)
 
 
