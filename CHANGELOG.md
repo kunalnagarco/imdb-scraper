@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.12](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.11...v1.1.12) (2021-07-06)
+
+
+### Chores
+
+* **deps:** update dependency @types/cors to v2.8.11 ([325616f](https://github.com/kunalnagarco/imdb-scraper/commit/325616f0f4a610df2398f8bedfc0d92fbb5670ec))
+
 ### [1.1.11](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.10...v1.1.11) (2021-07-06)
 
 
