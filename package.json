@@ -54,7 +54,7 @@
     "@semantic-release/release-notes-generator": "9.0.3",
     "@types/chai": "4.2.20",
     "@types/cors": "2.8.11",
-    "@types/express": "4.17.12",
+    "@types/express": "4.17.13",
     "@types/mocha": "8.2.2",
     "@types/node-fetch": "2.5.10",
     "@types/underscore": "1.11.3",
