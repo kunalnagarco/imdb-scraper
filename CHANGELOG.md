@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.14](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.13...v1.1.14) (2021-07-07)
+
+
+### Chores
+
+* **deps:** update dependency @types/mocha to v8.2.3 ([9aa2bc4](https://github.com/kunalnagarco/imdb-scraper/commit/9aa2bc49fc8a9094d2693b099d31d80fcefa8b38))
+
 ### [1.1.13](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.12...v1.1.13) (2021-07-07)
 
 
