@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.13](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.12...v1.1.13) (2021-07-07)
+
+
+### Chores
+
+* **deps:** update dependency @types/express to v4.17.13 ([ee0f490](https://github.com/kunalnagarco/imdb-scraper/commit/ee0f490d79567bc9664dd52397099932f75d06e6))
+
 ### [1.1.12](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.11...v1.1.12) (2021-07-06)
 
 
