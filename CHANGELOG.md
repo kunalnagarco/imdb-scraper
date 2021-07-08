@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.18](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.17...v1.1.18) (2021-07-08)
+
+
+### Chores
+
+* **deps:** update dependency @types/chai to v4.2.21 ([ea18e70](https://github.com/kunalnagarco/imdb-scraper/commit/ea18e705862456cbfaf60fbe2da721cbc8eb56e4))
+
 ### [1.1.17](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.16...v1.1.17) (2021-07-08)
 
 
