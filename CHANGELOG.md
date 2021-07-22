@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.27](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.26...v1.1.27) (2021-07-22)
+
+
+### Chores
+
+* **deps:** update dependency @types/node-fetch to v2.5.12 ([e471603](https://github.com/kunalnagarco/imdb-scraper/commit/e4716037a5bfd4993bdc690c8f969d69ec764b97))
+
 ### [1.1.26](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.25...v1.1.26) (2021-07-22)
 
 
