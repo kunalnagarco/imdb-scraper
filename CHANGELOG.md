@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.38](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.37...v1.1.38) (2021-08-09)
+
+
+### Chores
+
+* **deps:** update typescript-eslint monorepo to v4.29.1 ([957c572](https://github.com/kunalnagarco/imdb-scraper/commit/957c572294d5a5e8c2a50ef5762a7c8797a19a49))
+
 ### [1.1.37](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.36...v1.1.37) (2021-08-09)
 
 
