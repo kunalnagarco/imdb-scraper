@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.46](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.45...v1.1.46) (2021-08-21)
+
+
+### Chores
+
+* **deps:** update dependency eslint-plugin-prettier to v3.4.1 ([14b00e4](https://github.com/kunalnagarco/imdb-scraper/commit/14b00e46316190b53401c66474ec8be0dbb4e65b))
+
 ### [1.1.45](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.44...v1.1.45) (2021-08-19)
 
 
