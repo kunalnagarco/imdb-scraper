@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.50](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.49...v1.1.50) (2021-08-28)
+
+
+### Chores
+
+* **deps:** update dependency typescript to v4.4.2 ([34112cc](https://github.com/kunalnagarco/imdb-scraper/commit/34112cc58ca76a6b4fb60c8b15427e9c36bc920e))
+
 ### [1.1.49](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.48...v1.1.49) (2021-08-28)
 
 
