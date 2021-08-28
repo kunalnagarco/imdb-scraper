@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.48](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.47...v1.1.48) (2021-08-28)
+
+
+### Chores
+
+* **deps:** update dependency semantic-release to v17.4.7 ([916a1ef](https://github.com/kunalnagarco/imdb-scraper/commit/916a1eff3213da93f9f468d0f3327649c3cb0ae9))
+
 ### [1.1.47](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.46...v1.1.47) (2021-08-28)
 
 
