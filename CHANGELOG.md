@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.55](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.54...v1.1.55) (2021-09-05)
+
+
+### Chores
+
+* **deps:** update dependency @semantic-release/git to v9.0.1 ([4a50f4e](https://github.com/kunalnagarco/imdb-scraper/commit/4a50f4e3e635c24cd5e1dc2ad3b748cec78e93a0))
+
 ### [1.1.54](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.53...v1.1.54) (2021-09-04)
 
 
