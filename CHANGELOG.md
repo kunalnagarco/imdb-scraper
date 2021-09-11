@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.60](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.59...v1.1.60) (2021-09-11)
+
+
+### Chores
+
+* **deps:** update dependency prettier to v2.4.0 ([9b3c66d](https://github.com/kunalnagarco/imdb-scraper/commit/9b3c66dabecfde5cbc0e32664405cf63f166fccd))
+
 ### [1.1.59](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.58...v1.1.59) (2021-09-11)
 
 
