@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.57](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.56...v1.1.57) (2021-09-11)
+
+
+### Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v4.6.1 ([d4ce59a](https://github.com/kunalnagarco/imdb-scraper/commit/d4ce59a65b8b5d46b4c70b9d448c660a1e512390))
+
 ### [1.1.56](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.55...v1.1.56) (2021-09-06)
 
 
