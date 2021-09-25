@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.68](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.67...v1.1.68) (2021-09-25)
+
+
+### Chores
+
+* **deps:** update dependency sort-package-json to v1.52.0 ([4fbb289](https://github.com/kunalnagarco/imdb-scraper/commit/4fbb289b4323c01ce1d72d0bc30637046386409a))
+
 ### [1.1.67](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.66...v1.1.67) (2021-09-25)
 
 
