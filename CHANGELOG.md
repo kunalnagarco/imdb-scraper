@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.74](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.73...v1.1.74) (2021-10-09)
+
+
+### Chores
+
+* **deps:** update node.js to v14.18.0 ([77c61c3](https://github.com/kunalnagarco/imdb-scraper/commit/77c61c352e280562b243ca9e5ac37c4cf61a0a12))
+
 ### [1.1.73](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.72...v1.1.73) (2021-10-09)
 
 
