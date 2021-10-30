@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.85](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.84...v1.1.85) (2021-10-30)
+
+
+### Chores
+
+* **deps:** update dependency lint-staged to v11.2.6 ([001b759](https://github.com/kunalnagarco/imdb-scraper/commit/001b75993400ece0eeadc73ef7ea8da367ca07a0))
+
 ### [1.1.84](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.83...v1.1.84) (2021-10-24)
 
 
