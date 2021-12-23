@@ -1,5 +1,16 @@
 # Changelog
 
+### [1.1.87](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.86...v1.1.87) (2021-12-23)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#100](https://github.com/kunalnagarco/imdb-scraper/issues/100)) ([916b6a5](https://github.com/kunalnagarco/imdb-scraper/commit/916b6a52fe6d198ca91c2a988642bcf6086a84b6))
+* **deps:** update dependency eslint-plugin-import to v2.25.3 ([#101](https://github.com/kunalnagarco/imdb-scraper/issues/101)) ([1a23a2b](https://github.com/kunalnagarco/imdb-scraper/commit/1a23a2b9e6c0a6843713deb1a376c8de04fd78ef))
+* **deps:** update dependency prettier to v2.5.1 ([#103](https://github.com/kunalnagarco/imdb-scraper/issues/103)) ([5409cba](https://github.com/kunalnagarco/imdb-scraper/commit/5409cba1cf82b39374ed97a6bfa6875e520daaa0))
+* **deps:** update dependency sort-package-json to v1.53.1 ([#104](https://github.com/kunalnagarco/imdb-scraper/issues/104)) ([1507e45](https://github.com/kunalnagarco/imdb-scraper/commit/1507e45966a42d7eb45ae834329367d6a933ad58))
+* **deps:** update node.js to v14.18.2 ([#102](https://github.com/kunalnagarco/imdb-scraper/issues/102)) ([6e9530c](https://github.com/kunalnagarco/imdb-scraper/commit/6e9530c5d434cbabf892a52b9a7d5e6a6c363e8b))
+
 ### [1.1.86](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.85...v1.1.86) (2021-11-11)
 
 
