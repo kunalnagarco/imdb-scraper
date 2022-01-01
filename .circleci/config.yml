@@ -12,7 +12,7 @@ commands:
 executors:
   node:
     docker:
-      - image: circleci/node:14.18.1
+      - image: circleci/node:14.18.2
 
 jobs:
   lint-build-test:
