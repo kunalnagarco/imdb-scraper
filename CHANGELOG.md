@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.88](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.87...v1.1.88) (2022-01-21)
+
+
+### Chores
+
+* **deps:** update node.js to v14.18.2 ([#107](https://github.com/kunalnagarco/imdb-scraper/issues/107)) ([6933e24](https://github.com/kunalnagarco/imdb-scraper/commit/6933e24a3284cfb306bc2405bc0eb6a1575add91))
+
 ### [1.1.87](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.86...v1.1.87) (2021-12-23)
 
 
