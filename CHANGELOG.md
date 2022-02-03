@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.1.89](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.88...v1.1.89) (2022-02-03)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#105](https://github.com/kunalnagarco/imdb-scraper/issues/105)) ([2584bee](https://github.com/kunalnagarco/imdb-scraper/commit/2584bee2aeef0e61e92fded5cdd71dabd50a42ac))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v4.6.3 ([#106](https://github.com/kunalnagarco/imdb-scraper/issues/106)) ([24d0789](https://github.com/kunalnagarco/imdb-scraper/commit/24d0789f66710c1d7c27967b7f1008ed24bdba3e))
+* **deps:** update dependency eslint-plugin-import to v2.25.4 ([#110](https://github.com/kunalnagarco/imdb-scraper/issues/110)) ([6853851](https://github.com/kunalnagarco/imdb-scraper/commit/685385120a6407603b54c98870c7380fb809503f))
+
 ### [1.1.88](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.87...v1.1.88) (2022-01-21)
 
 
