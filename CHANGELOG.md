@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.90](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.89...v1.1.90) (2022-02-03)
+
+
+### Chores
+
+* **deps:** update dependency chai to v4.3.6 ([#109](https://github.com/kunalnagarco/imdb-scraper/issues/109)) ([7dddf71](https://github.com/kunalnagarco/imdb-scraper/commit/7dddf71562b53cf1f8d1b6a2572e899030359800))
+
 ### [1.1.89](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.88...v1.1.89) (2022-02-03)
 
 
