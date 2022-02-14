@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.91](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.90...v1.1.91) (2022-02-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency node-fetch to v2.6.7 [security] ([#111](https://github.com/kunalnagarco/imdb-scraper/issues/111)) ([f96ac12](https://github.com/kunalnagarco/imdb-scraper/commit/f96ac129737257f97b7fea48475fced08d4199a8))
+
 ### [1.1.90](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.89...v1.1.90) (2022-02-03)
 
 
