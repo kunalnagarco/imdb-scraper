@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.1.93](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.92...v1.1.93) (2022-03-07)
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#113](https://github.com/kunalnagarco/imdb-scraper/issues/113)) ([1abcff0](https://github.com/kunalnagarco/imdb-scraper/commit/1abcff02be69b54e0a586b7c4605fa26e840d79d))
+* **deps:** update dependency @types/node-fetch to v2.6.1 ([#115](https://github.com/kunalnagarco/imdb-scraper/issues/115)) ([35306ee](https://github.com/kunalnagarco/imdb-scraper/commit/35306ee5cef2908b189608904d66d03e1cb59481))
+
 ### [1.1.92](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.91...v1.1.92) (2022-02-14)
 
 
