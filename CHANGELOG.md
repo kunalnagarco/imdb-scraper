@@ -1,5 +1,17 @@
 # Changelog
 
+### [1.1.94](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.93...v1.1.94) (2022-03-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency underscore to v1.13.2 ([#114](https://github.com/kunalnagarco/imdb-scraper/issues/114)) ([fe751d8](https://github.com/kunalnagarco/imdb-scraper/commit/fe751d8af8bdd4112b73f5f3d7e88c5a43f74599))
+
+
+### Chores
+
+* **deps:** lock file maintenance ([#116](https://github.com/kunalnagarco/imdb-scraper/issues/116)) ([a6b9649](https://github.com/kunalnagarco/imdb-scraper/commit/a6b9649657126235c8a65e629c9cfd872ef6b6ce))
+
 ### [1.1.93](https://github.com/kunalnagarco/imdb-scraper/compare/v1.1.92...v1.1.93) (2022-03-07)
 
 
