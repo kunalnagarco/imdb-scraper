@@ -43,7 +43,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
-    "underscore": "1.13.4"
+    "underscore": "1.13.6"
   },
   "devDependencies": {
     "@semantic-release/changelog": "5.0.1",
